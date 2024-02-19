@@ -7493,7 +7493,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "MANA HUB-V1.2 BETA-Version",
+    Title = "MANA HUB-V1.2 BETA-Version |",
     SubTitle = "https://discord.gg/JNEgyPdW",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
@@ -13055,7 +13055,7 @@ spawn(function()
     end
 end)
 
-local Chips = {"Lửa","Băng","Chấn Động ","Ánh Sáng","Bóng Tối","Nhện","Điện","Dung Nham","Phật Tổ","Cát","Phượng Hoàng","Bột"}
+local Chips = {"Flame","Ice","Quake","Light","Dark","Spider","Rumble","Magma","Buddha","Sand","Phoenix","Dough"}
 
 local DropdownRaid = Tabs.Raid:AddDropdown("DropdownRaid", {
     Title = "Chọn Chip",
